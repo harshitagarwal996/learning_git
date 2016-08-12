@@ -1,2 +1,1 @@
-hey
-
+ git remote set-url origin https://github.com/harshitagarwal996/learning_git.git 
