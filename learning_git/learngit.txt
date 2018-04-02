@@ -1,0 +1,18 @@
+ssh-keygen -t rsa -C "your@email"  //generates a new key,paste one in home/.ssh or or Users/<your user>.ssh and another on github
+~/.ssh/id_rsa.pub            //open it and paste the key to github from here
+ls -al ~/.ssh                //list all ssh keys
+git config user.name
+git config user.email
+git init
+git add --all
+git status
+git commit -m "your message here"
+git checkout -b <branch-name>
+git log
+git checkout <commit-code>
+git merge <branch name which you want to merge to current branch>
+git remote add origin<or any other name> <http link of your repository here>
+git remote show origin
+git pull origin master
+git push -f origin master  //-f to force push
+git rebase master harshit  //rebase the branch harshit and replays it to branch master
